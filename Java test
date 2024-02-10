@@ -1,0 +1,17 @@
+// Функция для нахождения суммы элементов массива чисел
+function findSum(array) {
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        sum += array[i];
+    }
+    return sum;
+}
+
+// Заданный массив чисел
+let numbers = [1, 2, 3, 4, 5];
+
+// Вызываем функцию findSum() для нахождения суммы элементов массива
+let result = findSum(numbers);
+
+// Выводим результат на экран
+console.log("Сумма элементов массива:", result);
